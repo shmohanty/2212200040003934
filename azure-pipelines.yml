@@ -9,11 +9,11 @@ pr:
  branches:
    include:
      - main
-#  paths:
-#    include:
-#      - app
-#    exclude:
-#      - "docs"
+ paths:
+   include:
+     - app
+  #  exclude:
+  #    - "docs"
 
 pool:
   vmImage: ubuntu-latest
