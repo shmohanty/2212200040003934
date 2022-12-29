@@ -6,8 +6,8 @@
 trigger:
   branches:
     include:
-      - develop
-      - master
+      - dev
+      - main
   paths:
     include:
       - app
