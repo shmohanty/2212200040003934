@@ -12,8 +12,8 @@ pr:
  paths:
    include:
      - app
-  #  exclude:
-  #    - "docs"
+   exclude:
+     - docs
 
 pool:
   vmImage: ubuntu-latest
