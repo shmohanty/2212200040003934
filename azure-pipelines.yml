@@ -20,7 +20,7 @@ pr:
    include:
      - app
    exclude:
-     - docs
+     - "!docs"
 
 pool:
   vmImage: ubuntu-latest
